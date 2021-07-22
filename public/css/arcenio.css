@@ -1,0 +1,115 @@
+.form-forecast-container {
+    text-align: center;
+    width: 600px;
+    margin: 200px auto;
+    transform: translateY(10%);
+}
+
+.form-forecast-container .form-control {
+    border: 0px;
+    border-bottom: 1px solid #75B6E0;
+    background-color: transparent; 
+}
+
+.form-forecast-container > i {
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: #75B6E0;
+}
+
+.form-forecast-container > .row > div {
+    padding: 5px;
+}
+
+.forecast-container {
+    display: none;
+    padding: 0px 30px;
+}
+
+.forecast-container > .row > div {
+    margin-top: 50px;
+}
+
+.forecast-info {
+    color: #185890;
+}
+
+.forecast-info-link:hover {
+    color: #7E1313;
+    border-bottom: 2px solid #7E1313;
+}
+
+div.slider {
+    display: none;
+}
+
+table.dataTable tbody td.no-padding {
+    padding: 0;
+}
+
+.blood-type-buttons .btn.active:focus {
+    outline: none !important;
+}
+
+.blood-type-buttons .btn.active {
+    background-color: #367fa9;
+    color: #fff;
+    border-color: transparent;
+}
+
+.datepicker-days table tbody tr .disabled.day,
+.datepicker-months table tbody tr td .disabled.month,
+.datepicker-years table tbody tr td .disabled.year {
+    background-color: #f1f1f1 !important;
+    border-radius: 0px;
+}
+
+.disabled-click {
+    cursor: wait !important;
+}
+
+.disabled-click a {
+    pointer-events: none;
+}
+
+.dashboard-overlay {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: rgb(197, 71, 71);
+}
+
+.bloodbank-row {
+    cursor: pointer;
+}
+
+#forecast-summary table {
+    margin-bottom: 0px;
+}
+
+#forecast-summary table tbody tr td {
+    line-height: 40px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+/* 
+.my-btn-group input {
+    display:none;
+} */
+.tbl-report-temp-styled {
+    width:100%;
+    margin-bottom: 10px;
+}
+.tbl-report-temp-styled td, .tbl-report-temp-styled th {
+    text-align: center;
+    border:1px solid #7E1313;
+}
